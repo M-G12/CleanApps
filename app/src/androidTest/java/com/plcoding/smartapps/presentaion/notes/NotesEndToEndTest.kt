@@ -17,7 +17,6 @@ import com.gharibe.smartapps.ui.theme.CleanArchitectureNoteAppTheme
 import dagger.hilt.android.testing.HiltAndroidRule
 import dagger.hilt.android.testing.HiltAndroidTest
 import dagger.hilt.android.testing.UninstallModules
-import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
 

@@ -3,13 +3,9 @@ package com.plcoding.smartapps.feature_note.domain.use_case
 import com.gharibe.smartapps.feature_note.domain.model.Note
 import com.gharibe.smartapps.feature_note.domain.use_case.DeleteNoteUseCase
 import com.gharibe.smartapps.feature_note.domain.use_case.GetNotesUseCase
-import com.gharibe.smartapps.feature_note.domain.util.NoteOrder
-import com.gharibe.smartapps.feature_note.domain.util.OrderType
 import com.plcoding.smartapps.feature_note.data.repository.FakeNoteRepository
 import kotlinx.coroutines.runBlocking
 import com.google.common.truth.Truth.assertThat
-import io.mockk.InternalPlatformDsl.toArray
-import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.flow.toList
 import org.junit.Before
 import org.junit.Test
